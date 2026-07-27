@@ -197,3 +197,117 @@ line-height:1.02!important;
   font-size:clamp(2.4rem,4vw,4.3rem);
   line-height:1.08;
 }
+
+
+/* Version 17: triple the Student Council slogan size */
+h2.council-line-heading.council-line-heading--matched.council-line-heading--hero {
+  font-size: clamp(3.0rem, 5vw, 4.8rem) !important;
+  line-height: 0.88 !important;
+}
+
+h2.council-line-heading.council-line-heading--matched.council-line-heading--hero span {
+  display: block;
+  font-size: inherit !important;
+}
+
+@media (max-width: 700px) {
+  h2.council-line-heading.council-line-heading--matched.council-line-heading--hero {
+    font-size: clamp(1.7rem, 5vw, 3.0rem) !important;
+  }
+}
+
+
+/* Version 22: Academics mural hero */
+.page-banner--academics {
+  position: relative;
+  isolation: isolate;
+  background:
+    linear-gradient(90deg, rgba(8, 35, 78, 0.88), rgba(8, 35, 78, 0.52)),
+    url('assets/academics-mural.jpeg') center 48% / cover no-repeat !important;
+  color: #fff;
+}
+
+.page-banner--academics h1,
+.page-banner--academics p,
+.page-banner--academics .eyebrow {
+  color: #fff;
+}
+
+.page-banner--academics .shell {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* Version 31: About page Mission and Vision */
+.mission-vision-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.mission-vision-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.mission-card,
+.vision-card {
+  border-radius: 32px;
+  padding: clamp(2rem, 4vw, 3.25rem);
+  min-height: 100%;
+}
+
+.mission-card {
+  background: #243b8f;
+  color: #fff;
+}
+
+.vision-card {
+  background: #f7776d;
+  color: #fff;
+}
+
+.mission-card h2,
+.vision-card h2 {
+  color: #fff;
+  margin-top: 0;
+}
+
+.mission-card p,
+.vision-card p,
+.vision-card li {
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1.65;
+}
+
+.vision-card ul {
+  margin: 1rem 0 0;
+  padding-left: 1.4rem;
+}
+
+@media (max-width: 760px) {
+  .mission-vision-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.mission-card{
+ background:transparent !important;
+ border:3px solid #173a7a !important;
+ color:#173a7a !important;
+}
+.mission-card h2,.mission-card p{color:#173a7a !important;}
+
+
+/* Version 33: transparent Mission card with school navy text and border */
+.mission-card {
+  background: transparent !important;
+  border: 3px solid #173a7a !important;
+}
+
+.mission-card h2,
+.mission-card p {
+  color: #173a7a !important;
+}
