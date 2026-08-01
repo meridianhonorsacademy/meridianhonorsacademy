@@ -311,3 +311,15 @@ h2.council-line-heading.council-line-heading--matched.council-line-heading--hero
 .mission-card p {
   color: #173a7a !important;
 }
+
+.schedule-image {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.schedule-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
